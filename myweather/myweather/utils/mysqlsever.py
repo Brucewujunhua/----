@@ -212,7 +212,7 @@ class Model(object):
 if __name__=='__main__':
 
     class BaseModel(Model):
-        _conn = mySqlDB(user='sa', passwd='5201314Ai775', db='CaiHua')
+        _conn = mySqlDB(user='sa', passwd='', db='CaiHua')
 
     class MODEL_TABLE(BaseModel):
         _tbl = 'weather_data'
